@@ -67,11 +67,8 @@ def main():
         elif choice == "4":
             library.display_books()
         elif choice == "5":
-            print("Goodbye!")
             break
         else:
             print("Invalid choice. Please try again.")
 
-
-if __name__ == "__main__":
-    main()
+main()
